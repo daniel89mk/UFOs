@@ -17,7 +17,7 @@ Dana's webpage has been done, but she wants me to help put more filters at the s
  
 ## Summary: 
 #### Think webpages should be user-friendly! 
-I helped her make this webpage to have more criteria, but I thought it wasn't quiet user friendly, because :
+I helped her make this webpage to have more criteria, but I think it wasn't quiet user friendly, because :
   1. If I can not find any result after typing in, then I have to go back and delete each input myself.
       - We might want to make a filter button, so if the webpage couldn't find anything with my filter input, it could reset my old input.  
   2. Let's say I entered into the first filter which is "date" and if I don't move my mouse cursor, then the result doesn't update
