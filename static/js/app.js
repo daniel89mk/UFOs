@@ -60,25 +60,10 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     Object.entries(filters).forEach(([filterId, elementValue]) => {
-      if (filters[filterId] !== "") {
-        filteredData = filteredData.filter(entry => entry.datetime === elementValue);
+      if (elementValue) {
+        filteredData = filteredData.filter(row => row[filterId] ===elementValue)
       }
-    
-      else if (filters[filterId] !== "") {
-        filteredData = filteredData.filter(entry => entry.city === elementValue);
-
-      }
-      else if (filters[filterId] !== "") {
-        filteredData = filteredData.filter(entry => entry.state === elementValue);
-
-      }
-      else if (filters[filterId] !== "") {
-        filteredData = filteredData.filter(entry => entry.country === elementValue);
-
-      }
-      else 
-        filteredData = filteredData.filter(entry => entry.shape === elementValue);
-    });
+    })
 
       
     // 10. Finally, rebuild the table using the filtered data

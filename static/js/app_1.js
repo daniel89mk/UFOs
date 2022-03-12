@@ -54,3 +54,27 @@ d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
+
+
+
+
+
+if (filters[filterId] !== "") {
+    filteredData = filteredData.filter(entry => entry.datetime === elementValue);
+  }
+
+  else if (filters[filterId] !== "") {
+    filteredData = filteredData.filter(entry => entry.city === elementValue);
+
+  }
+  else if (filters[filterId] !== "") {
+    filteredData = filteredData.filter(entry => entry.state === elementValue);
+
+  }
+  else if (filters[filterId] !== "") {
+    filteredData = filteredData.filter(entry => entry.country === elementValue);
+
+  }
+  else 
+    filteredData = filteredData.filter(entry => entry.shape === elementValue);
+});
