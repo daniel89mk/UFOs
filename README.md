@@ -1,5 +1,5 @@
-# UFOs
-### Module 11 JavaScript Challenge! :space_invader:
+# UFOs :space_invader:
+### Module 11 JavaScript Challenge! 
 
 ## Overview of Project
 
